@@ -1,0 +1,40 @@
+7-Zip Compression 24.05:
+    pts/compress-7zip-1.11.0
+    Test 1 of 1
+    Estimated Trial Run Count:    3                      
+    Estimated Time To Completion: 18 Minutes [17:30 UTC] 
+        Started Run 1 @ 17:13:56
+        Started Run 2 @ 17:14:32
+        Started Run 3 @ 17:15:08
+
+    Test: Compression Rating:
+        9893
+        10049
+        9820
+
+    Average: 9921 MIPS
+    Deviation: 1.18%
+
+    Comparison of 2,089 OpenBenchmarking.org samples since 10 May 2024; median result: 96179 MIPS. Box plot of samples:
+    [|*----#########!#################----------------*-------------*--------*-*-*-------------------------*------------*--------*---*--*------------------------*-----------*-------------*-*---|            *             ]
+      ^ This Result (6th Percentile): 9921
+                           2 x AMD EPYC 9184X: 302466 ^ Intel Xeon 6780E: 464546 ^  AMD EPYC 9575F: 624384 ^  2 x AMD EPYC 9754: 799824 ^  AMD EPYC 9755: 947960 ^                 2 x AMD EPYC 9655: 1219921 ^
+                                              INTEL XEON PLATINUM 8592: 454943 ^                          2 x AMD EPYC 9684X: 782439 ^                            2 x AMD EPYC 9755: 1116706 ^
+                                                    Intel Xeon 6766E: 443674 ^                         2 x AMD EPYC 9455: 758248 ^                              2 x AMD EPYC 9645: 1104212 ^
+                                          ARMv8 Neoverse-V2: 385866 ^              2 x INTEL XEON PLATINUM 8592: 702712 ^                             AMD EPYC 9965: 1023541 ^
+
+
+    Test: Decompression Rating:
+        5940
+        5990
+        5988
+
+    Average: 5973 MIPS
+    Deviation: 0.47%
+
+    Comparison of 2,052 OpenBenchmarking.org samples since 10 May 2024; median result: 77728 MIPS. Box plot of samples:
+    [|--#######!#############----*--*-*---*----------------------------------*------------------------*---*-*-*--------------------------------*------------------*--*---------*---------*-----|                        *   ]
+               2 x AMD EPYC 9184X: 278430 ^       2 x AMD EPYC 9374F: 538475 ^   2 x Intel Xeon 6766E: 776612 ^     2 x AMD EPYC 9565: 1021036 ^              2 x AMD EPYC 9754: 1325673 ^   2 x AMD EPYC 9825: 1557636 ^
+                                      ^ 2 x AMD EPYC 7373X: 252271               2 x AMD EPYC 9475F: 762580 ^                                       2 x AMD EPYC 9655: 1255886 ^
+                                    ^ AMD Ryzen Threadripper 3970X: 233435      2 x AMD EPYC 9535: 745383 ^                               2 x AMD EPYC 9654: 1178644 ^
+                                 ^ 2 x Intel Xeon Gold 6444Y: 213891       2 x AMD EPYC 7773X: 722176 ^                                2 x AMD EPYC 9645: 1160147 ^
